@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    line-height: 1.15;
+    font-size: 1.5rem;
+    letter-spacing: -.02em;
+}
+
+h2{
+    font-family: "Poppins";
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.header {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+.header h1 {
+    margin-top: 20px;
+    font-size: 56px;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.content{
+    display: grid;
+    font-size: 12px;
+    gap: 2rem;
+    text-align: left;
+    grid-template-columns: repeat(2, 0fr);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content .socials {
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.content .socials1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+.content .socials1 a {
+    background-color: #fff;
+    color: #CD201F;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials1 a:hover {
+    color: white;
+    background-color: #9c1b1b;
+    border: none;
+}
+
+.content .socials2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.content .socials2 a {
+    color: #24292e;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials2 a:hover {
+    background-color: rgb(24, 25, 27);
+    color: white;
+    border: none;
+}
+
+.content .socials3 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.content .socials3 a {
+    color: #1f1f1f;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials3 a:hover {
+    background-color: #141414;
+    color: white;
+    border: none;
+}
+
+
+.content .socials4 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.content .socials4 a {
+    background-color: #fff;
+    color: #ff2992;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials4 a:hover {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    color: white;
+    border: none;
+}
+
+.content .socials5 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.content .socials5 a {
+    background-color: #fff;
+    color: #0077b5;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials5 a:hover {
+    background: #055d8b;
+    color: white;
+    border: none;
+}
+
+.content .socials6 {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.content .socials6 a {
+    background-color: #fff;
+    color:  #25d366;
+    border: 1px solid #ccc;
+    padding: 50px 10px;
+    font-size: 60px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials6 a:hover {
+    background: #1faf54;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+.content p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+a {
+    margin: 1rem;
+    text-align: center;
+    width: 350px;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    display: grid;
+    align-items: center;
+    color: #333;
+}
+
+a h2 {
+    margin-top: 8px;
+}
+
+a:hover{
+    
+    color: #166ec0;
+}
+
+
+/* Media Queries for Tablet */
+@media only screen and (max-width: 768px) {
+    .content {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+}
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 480px) {
+    .avatar {
+        width: 150px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    a {
+        width: 100%;
+    }
+}
